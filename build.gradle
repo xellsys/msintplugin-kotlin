@@ -81,5 +81,3 @@ task buildDocker {
     }
 }
 
-build.dependsOn buildDocker
-integrationTestUp.dependsOn build

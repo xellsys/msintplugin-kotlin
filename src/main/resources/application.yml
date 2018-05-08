@@ -1,0 +1,19 @@
+server:
+  # specify port on which JERSEY should start the server (default: 8080)
+  port: 8080
+
+spring:
+
+  application:
+    name: kotlinhelloworld
+
+endpoints:
+  health:
+    # enable detailed health output (/health)
+    sensitive: false
+  # prometheus endpoint config
+
+management:
+  security:
+    # enable detailed health output (/health)
+    enabled: false
